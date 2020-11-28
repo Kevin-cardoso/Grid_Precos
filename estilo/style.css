@@ -1,0 +1,147 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 80px; 
+    background-image: url(/grid_precos/img/rest.jpg);
+    background-size: 1300px;
+    background-position: center center;
+
+}
+img{
+    width: 100px;
+    height: 90px;
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    color: black;
+}
+.b1{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+.b2{
+    font-size: 32px;
+    color: white;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 2px;
+    color: black;
+}
+#btn-site{
+    width: 230px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    background-color: #808080;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+}
+#btn-site:hover{
+    background-color: #a9a9a9;
+    color: black;
+    border: 1px solid #a9a9a9;
+    box-shadow: 9px 9px 7px #808080;
+
+}
+#btn{
+    width: 230px;
+    height: 40px;
+    color: #4f4f4f;
+    font-size: 20px;
+    background-color: #a9a9a9;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: #808080;
+    color: white;
+    border: 1px solid #808080;
+    box-shadow: 9px 9px 7px #a9a9a9;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 9px 9px 18px white;
+    
+}
+.header{
+    text-align: center;
+    background-color: #c0c0c0;
+    padding: 20px 0px;
+    height: 200px;
+    border-radius: 2px;
+}
+.section{
+    text-align: center;
+    height: 190px;
+    width: 420px;
+    padding: 20px 0px;
+    border-radius: 3px;
+    background-color: #808080;
+    float: left;
+}
+.article{
+    text-align: center;
+    height: 190px;
+    padding: 20px 0px;
+    border-radius: 3px;
+    background-color: #a9a9a9;
+    clear: right;
+}
+@media (max-width: 600px){
+    body{
+        text-align: center;
+        padding: 0px;
+        margin-top: 0%;
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+    
+    }
+    .b1{
+        padding: 20px 0px;;
+        color: white;
+        font-weight: bold;
+    }
+    .container{
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .header{
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        /*padding: 20px;*/
+        background-color: #c0c0c0;
+        display: inline-block;
+        border-radius: 2px;
+    }
+    .section{
+        align-items: center;
+        height: 300px;
+        width: 100%;
+        display: inline-block;
+        
+        border-radius: 3px;
+        background-color: #808080;
+    }
+    .article{
+        align-items: center;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        border-radius: 3px;
+        background-color: #a9a9a9;
+    }
+    
+}
